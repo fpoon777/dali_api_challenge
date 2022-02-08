@@ -36,8 +36,8 @@ import Pages from "pages/Presentation/sections/Pages";
 import Testimonials from "pages/Presentation/sections/Testimonials";
 import Download from "pages/Presentation/sections/Download";
 
-// Presentation page Google Map
-import WrappedMap from "pages/Presentation/sections/GoogleMaps";
+// // Presentation page Google Map
+// import WrappedMap from "pages/Presentation/sections/GoogleMaps";
 
 // Presentation page components
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
@@ -48,6 +48,7 @@ import footerRoutes from "footer.routes";
 
 // Images
 import bgImage from "assets/images/bg-presentation.jpg";
+import TomTomMap from "./sections/TomTomMap";
 // import { height } from "@mui/system";
 
 function Presentation() {
@@ -103,15 +104,7 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
-        <div style={{ width: "80vw", height: "80vh", alignSelf: "center" }}>
-          <WrappedMap
-            // eslint-disable-next-line react/jsx-curly-brace-presence
-            googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyCK6HctokBaq8I7LDbV7MRIRfQmCSavtso`}
-            loadingElement={<div style={{ height: "30vw" }} />}
-            containerElement={<div style={{ height: "30vw" }} />}
-            mapElement={<div style={{ height: "30vw" }} />}
-          />
-        </div>
+        <TomTomMap />
 
         <Counters />
         <Information />
