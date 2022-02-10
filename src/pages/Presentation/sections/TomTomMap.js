@@ -34,14 +34,16 @@ function TomTomMap() {
     const marker = new tt.Marker().setLngLat([locLng, locLat]).addTo(toMap);
   };
 
-  crimeSearch().then((crimes) => {
-    // eslint-disable-next-line array-callback-return
-    crimes.map((item) => {
-      if (item.vict_descent === "A") {
-        addMarker(parseFloat(item.lon), parseFloat(item.lat), map);
-      }
+  const getCrimes = (toMap) => {
+    crimeSearch().then((crimes) => {
+      // eslint-disable-next-line array-callback-return
+      crimes.map((item) => {
+        if (item.vict_descent === "A") {
+          addMarker(parseFloat(item.lon), parseFloat(item.lat), toMap);
+        }
+      });
     });
-  });
+  };
 
   useEffect(() => {
     // eslint-disable-next-line no-shadow
@@ -52,6 +54,7 @@ function TomTomMap() {
       zoom: mapZoom,
     });
     setMap(map);
+    getCrimes(map);
     return () => map.remove();
   }, []);
 
@@ -75,7 +78,7 @@ function TomTomMap() {
           onChange={(e) => setLat(e.target.value)}
         />
         {/* <MKButton onChange={() => console.log("button clicked")}>Button</MKButton> */}
-        <div ref={tomTomMap} className="mapDiv" style={{ width: "80vw", height: "80vh" }} />
+        <div ref={tomTomMap} className="mapDiv" style={{ width: "100%", height: "80vh" }} />
       </Container>
     </div>
   );
