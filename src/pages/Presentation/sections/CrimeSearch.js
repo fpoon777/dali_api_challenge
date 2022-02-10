@@ -5,17 +5,17 @@ const APP_TOKEN = "HeRh9jWNo87cXq1pzv8w2X0YN";
 
 const crimeSearch = () => {
   const params = {
-    $limit: 1000,
+    $limit: 500,
     $$app_token: APP_TOKEN,
   };
-
   return new Promise((resolve, reject) => {
     axios
       .get(API_URL, { params })
       .then((response) => {
-        resolve(response.data.items);
+        resolve(response.data);
       })
       .catch((error) => {
+        // eslint-disable-next-line no-console
         console.log(`crime api error: ${error}`);
         reject(error);
       });
