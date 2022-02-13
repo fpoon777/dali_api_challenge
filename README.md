@@ -13,6 +13,9 @@ Three APIs are used. The first [API](https://data.lacity.org/Public-Safety/Crime
 1. To start, call `npm install --legacy-peer-deps`
 2. To run, call `npm start`
 
+## Website:
+The website is hosted by github pages at: `https://fpoon777.github.io/dali_api_challenge`
+
 ## Tips
 * There is a 500 requests limit for the real estate API.
 * TomTom has a daily requests limit of 5000.
