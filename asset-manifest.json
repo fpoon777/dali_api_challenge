@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "/dali_api_challenge/static/js/main.0e7a3b60.chunk.js",
+    "main.js.map": "/dali_api_challenge/static/js/main.0e7a3b60.chunk.js.map",
+    "runtime-main.js": "/dali_api_challenge/static/js/runtime-main.06f677d9.js",
+    "runtime-main.js.map": "/dali_api_challenge/static/js/runtime-main.06f677d9.js.map",
+    "static/css/2.3cf3103e.chunk.css": "/dali_api_challenge/static/css/2.3cf3103e.chunk.css",
+    "static/js/2.fe93ffbb.chunk.js": "/dali_api_challenge/static/js/2.fe93ffbb.chunk.js",
+    "static/js/2.fe93ffbb.chunk.js.map": "/dali_api_challenge/static/js/2.fe93ffbb.chunk.js.map",
+    "index.html": "/dali_api_challenge/index.html",
+    "static/css/2.3cf3103e.chunk.css.map": "/dali_api_challenge/static/css/2.3cf3103e.chunk.css.map",
+    "static/js/2.fe93ffbb.chunk.js.LICENSE.txt": "/dali_api_challenge/static/js/2.fe93ffbb.chunk.js.LICENSE.txt",
+    "static/media/Mickey_Mouse_Avatar.e8818b7d.png": "/dali_api_challenge/static/media/Mickey_Mouse_Avatar.e8818b7d.png",
+    "static/media/assault_deadly_weapon.fddc5854.png": "/dali_api_challenge/static/media/assault_deadly_weapon.fddc5854.png",
+    "static/media/bg-presentation.337fa377.jpg": "/dali_api_challenge/static/media/bg-presentation.337fa377.jpg",
+    "static/media/blog2.15442091.jpg": "/dali_api_challenge/static/media/blog2.15442091.jpg",
+    "static/media/burglary.822ed720.png": "/dali_api_challenge/static/media/burglary.822ed720.png",
+    "static/media/city-profile.1eae9b46.jpg": "/dali_api_challenge/static/media/city-profile.1eae9b46.jpg",
+    "static/media/general.25adfb24.png": "/dali_api_challenge/static/media/general.25adfb24.png",
+    "static/media/house.218fbacc.png": "/dali_api_challenge/static/media/house.218fbacc.png",
+    "static/media/kekehome_logo_larger.6b0447eb.png": "/dali_api_challenge/static/media/kekehome_logo_larger.6b0447eb.png",
+    "static/media/los_angeles_icon.2b1ed9cd.png": "/dali_api_challenge/static/media/los_angeles_icon.2b1ed9cd.png",
+    "static/media/robbery.1d784426.png": "/dali_api_challenge/static/media/robbery.1d784426.png",
+    "static/media/tomtom_icon.276f1736.png": "/dali_api_challenge/static/media/tomtom_icon.276f1736.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06f677d9.js",
+    "static/css/2.3cf3103e.chunk.css",
+    "static/js/2.fe93ffbb.chunk.js",
+    "static/js/main.0e7a3b60.chunk.js"
+  ]
+}
