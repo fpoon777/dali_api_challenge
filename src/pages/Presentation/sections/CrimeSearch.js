@@ -1,11 +1,13 @@
 import axios from "axios";
 
-const API_URL = "https://data.lacity.org/resource/2nrs-mtv8.json";
-const APP_TOKEN = "HeRh9jWNo87cXq1pzv8w2X0YN";
+require("dotenv").config();
+
+const API_URL = process.env.REACT_APP_CRIME_API_URL;
+const APP_TOKEN = process.env.REACT_APP_CRIME_APP_TOKEN;
 
 const crimeSearch = () => {
   const params = {
-    $limit: 500,
+    $limit: 200,
     $$app_token: APP_TOKEN,
   };
   return new Promise((resolve, reject) => {
